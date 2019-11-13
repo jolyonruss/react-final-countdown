@@ -26,7 +26,7 @@ var Countdown = require('react-the-final-countdown');
 And add the Countdown component where you are returning your HTML:
 
 ```javascript
-<Countdown min = {3} msg ="Close the bloody fridge" afterTimeOut = {this.afterTimeOut}/>
+<Countdown min = {3} msg ="Close the fridge door" afterTimeOut = {this.afterTimeOut}/>
 ```
 
 - min is the number of minutes you'd like to start the countdown from.
